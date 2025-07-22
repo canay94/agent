@@ -6,6 +6,9 @@ sudo apt install python3-pip
 * Para instalar los paquetes
 sudo apt install python3-pypdf
 
+* Ambientes virtuales
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev-is-python3
+
 * Para instalar las dependencias
 pip install -r requirements.txt
 
