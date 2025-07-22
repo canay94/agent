@@ -6,3 +6,4 @@ boto3
 streamlit
 langchain_community
 langchain_ollama
+langchain_chroma
