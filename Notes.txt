@@ -9,6 +9,15 @@ sudo apt install python3-pypdf
 * Ambientes virtuales
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev-is-python3
 
+* Instalar ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+* Agregar
+https://stackoverflow.com/questions/78162485/problems-with-python-and-ollama
+ollama pull nomic-embed-
+
+ollama run mistral:latest
+
 * Para instalar las dependencias
 pip install -r requirements.txt
 
@@ -25,7 +34,7 @@ python .\populate_database.py
 streamlit run app.py
 
 * Para probarlo
-python .\query_data.py "¿Cuáles son los productos de la empresa?"
+python .\query_data.py "cuáles son las políticas de seguridad"
 
 * Para ejecutar los tests
 python -m pytest test_rag.py -v
