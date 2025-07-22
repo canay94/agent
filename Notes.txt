@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=2TJxpyO3ei4
+
+* Para instalar las dependencias
+pip install -r requirements.txt
+
+
+* Para crear la base de datos
+* Para limpiar la base de datos
+python .\populate_database.py --reset
+
+* Para crear la base de datos
+python .\populate_database.py
+
+
+* Para ejecutar la aplicación   
+streamlit run app.py
+
+* Para probarlo
+python .\query_data.py "¿Cuáles son los productos de la empresa?"
+
+* Para ejecutar los tests
+python -m pytest test_rag.py -v
