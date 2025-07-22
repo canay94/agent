@@ -3,6 +3,9 @@ https://www.youtube.com/watch?v=2TJxpyO3ei4
 * Para instalar pip
 sudo apt install python3-pip
 
+* Para instalar los paquetes
+sudo apt install python3-pypdf
+
 * Para instalar las dependencias
 pip install -r requirements.txt
 
